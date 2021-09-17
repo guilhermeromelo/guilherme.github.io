@@ -11489,12 +11489,12 @@ html {
 }
 
 .logo{
-  fill: rgba(2, 53, 112, 0.65);
+  fill: #5b7ca2;
   transition: all 700ms cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .linha-portfolio:hover .logo{
-  fill: #1abc9c;
+  fill: #20E8C0;
   transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
@@ -11525,15 +11525,17 @@ svg .B{stroke-width:.866}
   max-width: 500px;
 }
 
+.align-portfolio-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
 canvas{
   display: block;
   position: absolute;
   top: -15%;
   z-index: 0;
 }
-
-/* #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #b61924; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } 
-.count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } 
-.js-count-particles{ font-size: 1.1em; } #stats, 
-.count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } 
-.count-particles{ border-radius: 0 0 3px 3px; } */
